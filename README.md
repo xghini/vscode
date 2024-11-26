@@ -1,8 +1,13 @@
-## 已打包好vscode和resource_hacker工具
+## 已打包好vscode和修改图标的resource_hacker工具,可直接下载使用:
+
+```
+git clone https://github.com/xghini/vscode.git
+```
 
 ## 实现步骤
 1. 官网下载vscode zip文件
-2. ./resources/app/out 目录下搜索内容.setAppUserModelId,将其()内容改名,即可区分任务栏应用
+![alt text](image-1.png)
+2. vscode/resources/app/out 目录下搜索内容.setAppUserModelId,将其()内容改名,即可区分原本的VSCODE应用
 3. 使用 resource_hacker.exe 修改图标
 
 ## 若遇到警告
