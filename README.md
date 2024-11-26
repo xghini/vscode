@@ -5,7 +5,7 @@ git clone https://github.com/xghini/vscode.git
 ```
 
 ## 实现步骤
-1. 官网下载vscode zip文件
+1. 官网下载vscode zip文件,解压后在根目录创建data文件夹存放配置
 ![alt text](image-1.png)
 2. vscode/resources/app/out 目录下搜索内容.setAppUserModelId,将其()内容改名,即可区分原本的VSCODE应用
 3. 使用 resource_hacker.exe 修改图标
